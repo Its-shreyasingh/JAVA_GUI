@@ -7,6 +7,10 @@ import java.sql.DriverManager;
 
 public class Database {
     static Statement stmt;
+    public static void main(String[] args) {
+        database();
+        
+    }
     public Database() {
         String url = "jdbc:postgresql://localhost:5432/gendul";
         String user = "postgres";
