@@ -8,10 +8,9 @@ import java.sql.DriverManager;
 public class Database {
     static Statement stmt;
     public static void main(String[] args) {
-        database();
-        
+        Database db = new Database();
     }
-    public Database() {
+    public  Database() {
         String url = "jdbc:postgresql://localhost:5432/gendul";
         String user = "postgres";
         String password = "postgres";
